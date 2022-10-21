@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevCaleb Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/f6376f2cd0.js" crossorigin="anonymous"></script>
+
+    <!-- update these with your own fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+    <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+      <header>
+        <div class="logo">
+          <img src="img/dev_logo.svg" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">My Service</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+          Hi, I am <strong>Caleb Aurand</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+          full-stack dev
+        </p>
+        <img src="img/headshot1.jpg" class="intro__img" alt="headshot">
+      </section>
+      
+
+      <!-- My services -->
+      <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services">
+          <div class="service">
+            <h3>Design + Development</h3>
+            <p>Utilizing cloud based design tools, I can create some simple designs that stand out and look great on the web.
+            Each website, and web application is tested for accomplishing its main purpose, then also being responsive to multiple devices.</p>
+          </div> <!-- close service -->
+
+          <div class="service">
+            <h3>Express.js</h3>
+            <p>Utilizing the Express JavaScript framework, I can build a reliable backend API that can serve data from a database to a front-end application.</p>
+          </div> <!-- close service -->
+
+          <div class="service">
+            <h3>React.js</h3>
+            <p>Taking the power and flexibility of React I can make lightning fast, responsive user interfaces. These front-end apps are easy, and enjoyable to use, and look great. </p>
+          </div> <!-- close service -->
+
+        </div> <!-- close all services here-->
+
+        <a href="#work" class="btn">My Work</a>
+      </section>
+
+      <!-- About Me -->
+      <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I Am</h2>
+        <p class="section__subtitle section__subtitle--about">
+          Designer & Developer based in Dallas, TX
+        </p>
+
+        <div class="about-me__body">
+          <p>Hi my name is Caleb Aurand. I am a full-stack web developer who lives in the Dallas area. My mission is to create great software that aids in solving people's problems, and brings honor and glory to God.</p>
+          <p>My other interests include: spending time with my family, volunteering at my Church, teaching Youth Bible Study, enjoying the gift of coffee, hiking on nature trails, biking, cooking, and serving in the Texas Army National Guard.</p>
+        </div>
+
+        <img src="img/headshot3.jpg" alt="caleb in front of a wall" class="about-me__img" id="about--img">
+      </section>
+
+      <!-- My Work -->
+      <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my projects</p>
+
+        <div class="portfolio">
+          <a href="portfolio-item.html" class="portfolio__item">
+            <img src="img/homegradebook2.png" alt="" class="portfolio__img">
+          </a>
+          <a href="https://calebaurand.github.io/411_wk6_day1_redux_thunk//" class="portfolio__item">
+            <img src="img/fakeCarsSquare.png" alt="" class="portfolio__img">
+          </a>
+          <a href="https://calebaurand.github.io/digital-business-card/" class="portfolio__item">
+            <img src="img/detsBusCard.png" alt="" class="portfolio__img">
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/smbizapp.png" alt="" class="portfolio__img">
+          </a>
+          <!-- <a href="#" class="portfolio__item">
+            <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+          </a> -->
+        </div>
+
+        <!-- <img src="img/headshot2.jpg" alt="caleb in front of a wall"> -->
+      </section>
+
+      <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:caurand13@gmail.com" class="footer__link">caurand13@gmail.com</a>
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a href="https://codepen.io/cal-el404" class="social-list__link">
+              <i class="fa-brands fa-codepen"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://www.linkedin.com/in/caleb-aurand-23938a161/" class="social-list__link">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://twitter.com" class="social-list__link">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://github.com" class="social-list__link">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+      <script src="index.js"></script>
+    </body>
+</html>
